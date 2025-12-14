@@ -7,8 +7,8 @@ sudo ./aws/install
 sudo apt update 
 sudo apt install -y tesseract-ocr
 cd calliope
-# poetry env use /usr/bin/python3.10 
-# poetry install
+poetry env use /usr/bin/python3.10 
+poetry install
 
 
 unset AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY AWS_SESSION_TOKEN AWS_DEFAULT_REGION
